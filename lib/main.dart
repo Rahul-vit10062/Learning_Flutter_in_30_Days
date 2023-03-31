@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog/Home_Page.dart';
 
 void main() {
   runApp(MyApp());
@@ -7,13 +8,7 @@ void main() {
 class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text("Hellow Flutter by Lions of VIT Bhopal !"),
-          ),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
